@@ -1,7 +1,7 @@
 
       implicit double precision (a-h,o-z)
       parameter (gamal=7./5., gamar=7./5., nx=100,ny=10)
-	
+
       double precision den(1:nx,1:ny),velx(1:nx,1:ny),vely(1:nx,1:ny)
 	double precision pre(1:nx,1:ny),amass(1:nx,1:ny)
       double precision sound(1:nx,1:ny),tau(1:nx,1:ny)
