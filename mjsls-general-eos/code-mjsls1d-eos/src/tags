@@ -1,0 +1,148 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+10	solver/MDU_exact_riemann_slover.f90	/^		10   CONTINUE$/;"	l	module:MDU_exact_riemann_slover	file:
+20	solver/MDU_exact_riemann_slover.f90	/^		20   CONTINUE$/;"	l	module:MDU_exact_riemann_slover	file:
+909	pretreaty/MDU_Initial_Kidder.f90	/^		909 format(1x,6D20.8)   $/;"	l	subroutine:Initial_Mesh_Phys_kidder	file:
+CL	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: UL,PL ,CL,/;"	v	module:MDU_exact_riemann_slover
+CR	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: UR,PR ,CR,/;"	v	module:MDU_exact_riemann_slover
+CVarToPVar	solver/fluid_euler_eqn_basic.f90	/^	subroutine CVarToPVar(/;"	s	module:fluid_euler_eqn_basic
+CaCySp	common/common_inicmt.f90	/^		character(99) :: CaCySp$/;"	k	type:inicmt
+Check_Phys_conservation	posttreaty/output_mesh_phys.f90	/^	Subroutine Check_Phys_conservation(/;"	s	module:output
+DL	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: UL,PL ,CL, DL$/;"	v	module:MDU_exact_riemann_slover
+DR	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: UR,PR ,CR, DR$/;"	v	module:MDU_exact_riemann_slover
+G	solver/MDU_exact_riemann_slover.f90	/^	real*8,private :: G$/;"	v	module:MDU_exact_riemann_slover
+G1	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: G1 /;"	v	module:MDU_exact_riemann_slover
+G2	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: G1 ,G2,/;"	v	module:MDU_exact_riemann_slover
+G3	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: G1 ,G2,G3,/;"	v	module:MDU_exact_riemann_slover
+G4	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: G1 ,G2,G3,G4,/;"	v	module:MDU_exact_riemann_slover
+G5	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: G1 ,G2,G3,G4,G5,/;"	v	module:MDU_exact_riemann_slover
+G6	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: G1 ,G2,G3,G4,G5,G6,/;"	v	module:MDU_exact_riemann_slover
+G7	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: G1 ,G2,G3,G4,G5,G6,G7,/;"	v	module:MDU_exact_riemann_slover
+G8	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: G1 ,G2,G3,G4,G5,G6,G7,G8$/;"	v	module:MDU_exact_riemann_slover
+GUESSP	solver/MDU_exact_riemann_slover.f90	/^	SUBROUTINE GUESSP(/;"	s	module:MDU_exact_riemann_slover
+Initial	pretreaty/MDU_Initial.f90	/^	Subroutine  Initial(/;"	s	module:MDU_Initial
+Initial_CMT	pretreaty/MDU_Initial.f90	/^	Subroutine Initial_CMT(/;"	s	module:MDU_Initial
+Initial_Mesh_Phys	pretreaty/MDU_Initial.f90	/^	Subroutine Initial_Mesh_Phys(/;"	s	module:MDU_Initial
+Initial_Mesh_Phys_Leblanc	pretreaty/MDU_Initial_leblanc.f90	/^	Subroutine Initial_Mesh_Phys_Leblanc(/;"	s	module:MDU_Initial_leblanc
+Initial_Mesh_Phys_kidder	pretreaty/MDU_Initial_Kidder.f90	/^	Subroutine Initial_Mesh_Phys_kidder(/;"	s	module:MDU_Initial_kidder
+Initial_Mesh_Phys_lax	pretreaty/MDU_Initial_lax.f90	/^	Subroutine Initial_Mesh_Phys_lax(/;"	s	module:MDU_Initial_lax
+Initial_Mesh_Phys_lazarus	pretreaty/MDU_Initial_lazarus.f90	/^	Subroutine Initial_Mesh_Phys_lazarus(/;"	s	module:MDU_Initial_lazarus
+Initial_Mesh_Phys_noh	pretreaty/MDU_Initial_noh.f90	/^	Subroutine Initial_Mesh_Phys_noh(/;"	s	module:MDU_Initial_noh
+Initial_Mesh_Phys_s123	pretreaty/MDU_Initial_s123.f90	/^	Subroutine Initial_Mesh_Phys_s123(/;"	s	module:MDU_Initial_s123
+Initial_Mesh_Phys_s321	pretreaty/MDU_Initial_s321.f90	/^	Subroutine Initial_Mesh_Phys_s321(/;"	s	module:MDU_Initial_s321
+Initial_Mesh_Phys_sedov	pretreaty/MDU_Initial_sedov.f90	/^	Subroutine Initial_Mesh_Phys_sedov(/;"	s	module:MDU_Initial_sedov
+Initial_Mesh_Phys_shuosher	pretreaty/MDU_Initial_shuosher.f90	/^	Subroutine Initial_Mesh_Phys_shuosher(/;"	s	module:MDU_Initial_shuosher
+Initial_Mesh_Phys_sod	pretreaty/MDU_Initial_sod.f90	/^	Subroutine Initial_Mesh_Phys_sod(/;"	s	module:MDU_Initial_sod
+Initial_Mesh_Phys_twoblast	pretreaty/MDU_Initial_twoblast.f90	/^	Subroutine Initial_Mesh_Phys_twoblast(/;"	s	module:MDU_Initial_twoblast
+MDU_Initial	pretreaty/MDU_Initial.f90	/^Module MDU_Initial$/;"	m
+MDU_Initial_kidder	pretreaty/MDU_Initial_Kidder.f90	/^Module MDU_Initial_kidder$/;"	m
+MDU_Initial_lax	pretreaty/MDU_Initial_lax.f90	/^Module MDU_Initial_lax$/;"	m
+MDU_Initial_lazarus	pretreaty/MDU_Initial_lazarus.f90	/^Module MDU_Initial_lazarus$/;"	m
+MDU_Initial_leblanc	pretreaty/MDU_Initial_leblanc.f90	/^Module MDU_Initial_leblanc$/;"	m
+MDU_Initial_noh	pretreaty/MDU_Initial_noh.f90	/^Module MDU_Initial_noh$/;"	m
+MDU_Initial_s123	pretreaty/MDU_Initial_s123.f90	/^Module MDU_Initial_s123$/;"	m
+MDU_Initial_s321	pretreaty/MDU_Initial_s321.f90	/^Module MDU_Initial_s321$/;"	m
+MDU_Initial_sedov	pretreaty/MDU_Initial_sedov.f90	/^Module MDU_Initial_sedov$/;"	m
+MDU_Initial_shuosher	pretreaty/MDU_Initial_shuosher.f90	/^Module MDU_Initial_shuosher$/;"	m
+MDU_Initial_sod	pretreaty/MDU_Initial_sod.f90	/^Module MDU_Initial_sod$/;"	m
+MDU_Initial_twoblast	pretreaty/MDU_Initial_twoblast.f90	/^Module MDU_Initial_twoblast$/;"	m
+MDU_exact_riemann_slover	solver/MDU_exact_riemann_slover.f90	/^Module MDU_exact_riemann_slover$/;"	m
+MDU_fluid_euler_eqn_solver	solver/MDU_fluid_euler_eqn_solver.f90	/^Module MDU_fluid_euler_eqn_solver$/;"	m
+Node_Solver	common/common_inicmt.f90	/^		character(99) :: Node_Solver$/;"	k	type:inicmt
+PL	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: UL,PL /;"	v	module:MDU_exact_riemann_slover
+PR	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: UR,PR /;"	v	module:MDU_exact_riemann_slover
+PREFUN	solver/MDU_exact_riemann_slover.f90	/^	SUBROUTINE PREFUN(/;"	s	module:MDU_exact_riemann_slover
+PVarToCVar	solver/fluid_euler_eqn_basic.f90	/^	subroutine PVarToCVar(/;"	s	module:fluid_euler_eqn_basic
+PVarToOther	solver/fluid_euler_eqn_basic.f90	/^	subroutine PVarToOther(/;"	s	module:fluid_euler_eqn_basic
+UL	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: UL,/;"	v	module:MDU_exact_riemann_slover
+UR	solver/MDU_exact_riemann_slover.f90	/^	real*8,private:: UR,/;"	v	module:MDU_exact_riemann_slover
+a	solver/MDU_exact_riemann_slover.f90	/^	real/;"	v	module:MDU_exact_riemann_slover
+a1	solver/MDU_exact_riemann_slover.f90	/^	real*8,private  :: d,e,p,u,c,h,e1,v,w,a1,/;"	v	module:MDU_exact_riemann_slover
+a2	solver/MDU_exact_riemann_slover.f90	/^	real*8,private  :: d,e,p,u,c,h,e1,v,w,a1,a2,/;"	v	module:MDU_exact_riemann_slover
+bnd_con	common/common_meshphys.f90	/^		integer :: bnd_con(/;"	k	type:meshphys
+bnd_vel_pre	common/common_meshphys.f90	/^		real*8  :: bnd_vel_pre(/;"	k	type:meshphys
+c	solver/MDU_exact_riemann_slover.f90	/^	real*8,private  :: d,e,p,u,c,/;"	v	module:MDU_exact_riemann_slover
+cal_boundary_node_solver	solver/centered/mdu_fluid_euler_eqn_solver_centered_node_solver.f90	/^	Subroutine cal_boundary_node_solver(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_node_solver
+cal_centered_node_solver_MJCLS	solver/centered/mdu_fluid_euler_eqn_solver_centered_node_solver.f90	/^	Subroutine cal_centered_node_solver_MJCLS(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_node_solver
+cal_centered_node_solver_acoustic	solver/centered/mdu_fluid_euler_eqn_solver_centered_node_solver.f90	/^	Subroutine cal_centered_node_solver_acoustic(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_node_solver
+cal_dt	solver/cal_dt.f90	/^	Subroutine cal_dt(/;"	s	module:dt
+case_name	common/common_inicmt.f90	/^		Character(99) :: case_name$/;"	k	type:inicmt
+cfl	common/common_inicmt.f90	/^		real*8  :: cfl$/;"	k	type:inicmt
+common_inicmt	common/common_inicmt.f90	/^module common_inicmt$/;"	m
+common_meshphys	common/common_meshphys.f90	/^module common_meshphys$/;"	m
+con_phys	common/common_meshphys.f90	/^		real*8,allocatable  :: con_phys(/;"	k	type:meshphys
+current_time	common/common_inicmt.f90	/^		real*8  :: current_time$/;"	k	type:inicmt
+d	solver/MDU_exact_riemann_slover.f90	/^	real*8,private  :: d,/;"	v	module:MDU_exact_riemann_slover
+den0	common/common_meshphys.f90	/^		real*8,allocatable  :: den0(/;"	k	type:meshphys
+dt	common/common_inicmt.f90	/^		real*8  :: dt$/;"	k	type:inicmt
+dt	solver/cal_dt.f90	/^Module dt$/;"	m
+e	solver/MDU_exact_riemann_slover.f90	/^	rea/;"	v	module:MDU_exact_riemann_slover
+e1	solver/MDU_exact_riemann_slover.f90	/^	real*8,private  :: d,e,p,u,c,h,e1,/;"	v	module:MDU_exact_riemann_slover
+ein	common/common_meshphys.f90	/^		real*8,allocatable  :: ein(/;"	k	type:meshphys
+entropy	common/common_meshphys.f90	/^		real*8,allocatable  :: entropy(/;"	k	type:meshphys
+eos	common/common_meshphys.f90	/^		integer,allocatable :: eos(/;"	k	type:meshphys
+exact_riemann_problem_pstar_ustar	solver/MDU_exact_riemann_slover.f90	/^	subroutine exact_riemann_problem_pstar_ustar(/;"	s	module:MDU_exact_riemann_slover
+fluid_euler_eqn_basic	solver/fluid_euler_eqn_basic.f90	/^Module fluid_euler_eqn_basic /;"	m
+fluid_euler_eqn_solver	solver/MDU_fluid_euler_eqn_solver.f90	/^	Subroutine fluid_euler_eqn_solver(/;"	s	module:MDU_fluid_euler_eqn_solver
+fluid_euler_eqn_solver_centered	solver/centered/mdu_fluid_euler_eqn_solver_centered.f90	/^	Subroutine fluid_euler_eqn_solver_centered(/;"	s	module:mdu_fluid_euler_eqn_solver_centered
+fluid_euler_eqn_solver_centered_node_solver	solver/centered/mdu_fluid_euler_eqn_solver_centered_node_solver.f90	/^	subroutine fluid_euler_eqn_solver_centered_node_solver(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_node_solver
+fluid_euler_eqn_solver_staggered	solver/staggered/mdu_fluid_euler_eqn_solver_staggered.f90	/^Subroutine fluid_euler_eqn_solver_staggered(/;"	s	module:mdu_fluid_euler_eqn_solver_staggered
+h	solver/MDU_exact_riemann_slover.f90	/^	real*8,private  :: d,e,p,u,c,h,/;"	v	module:MDU_exact_riemann_slover
+ieos_to_gamma	solver/fluid_euler_eqn_basic.f90	/^	subroutine ieos_to_gamma(/;"	s	module:fluid_euler_eqn_basic
+ini_cmt	main.f90	/^   type(inicmt)   :: ini_cmt /;"	v	program:main
+inicmt	common/common_inicmt.f90	/^	type inicmt$/;"	t	module:common_inicmt
+it	common/common_inicmt.f90	/^		integer :: it$/;"	k	type:inicmt
+it_out	common/common_inicmt.f90	/^		integer :: it_out$/;"	k	type:inicmt
+lazarus_velocity	pretreaty/MDU_Initial_lazarus.f90	/^	subroutine lazarus_velocity(/;"	s	module:MDU_Initial_lazarus
+lg_output	common/common_inicmt.f90	/^		logical  :: lg_output$/;"	k	type:inicmt
+main	main.f90	/^program main$/;"	p
+mass	common/common_meshphys.f90	/^		real*8,allocatable  :: mass(/;"	k	type:meshphys
+mdu_fluid_euler_eqn_solver_centered	solver/centered/mdu_fluid_euler_eqn_solver_centered.f90	/^module mdu_fluid_euler_eqn_solver_centered$/;"	m
+mdu_fluid_euler_eqn_solver_centered_node_solver	solver/centered/mdu_fluid_euler_eqn_solver_centered_node_solver.f90	/^module mdu_fluid_euler_eqn_solver_centered_node_solver$/;"	m
+mdu_fluid_euler_eqn_solver_centered_update	solver/centered/mdu_fluid_euler_eqn_solver_centered_update.f90	/^module mdu_fluid_euler_eqn_solver_centered_update$/;"	m
+mdu_fluid_euler_eqn_solver_staggered	solver/staggered/mdu_fluid_euler_eqn_solver_staggered.f90	/^module mdu_fluid_euler_eqn_solver_staggered /;"	m
+mesh_phys	main.f90	/^   type(meshphys) :: mesh_phys /;"	v	program:main
+meshphys	common/common_meshphys.f90	/^	type meshphys$/;"	t	module:common_meshphys
+n	solver/MDU_exact_riemann_slover.f90	/^	int/;"	v	module:MDU_exact_riemann_slover
+n_out	common/common_inicmt.f90	/^		integer  :: n_out$/;"	k	type:inicmt
+nx	common/common_inicmt.f90	/^		integer :: nx$/;"	k	type:inicmt
+output	posttreaty/output_mesh_phys.f90	/^Module output$/;"	m
+output_mesh_phys	posttreaty/output_mesh_phys.f90	/^	Subroutine output_mesh_phys(/;"	s	module:output
+output_mesh_phys_final	posttreaty/output_mesh_phys.f90	/^	Subroutine output_mesh_phys_final(/;"	s	module:output
+p	solver/MDU_exact_riemann_slover.f90	/^	real*8,pr/;"	v	module:MDU_exact_riemann_slover
+pre	common/common_meshphys.f90	/^		real*8,allocatable  :: pre(/;"	k	type:meshphys
+pstar	common/common_meshphys.f90	/^		real*8,allocatable  :: pstar(/;"	k	type:meshphys
+q	common/common_meshphys.f90	/^		real*8,allocatable  :: q(/;"	k	type:meshphys
+rege_mesh_phys	pretreaty/MDU_Initial.f90	/^	Subroutine rege_mesh_phys(/;"	s	module:MDU_Initial
+rp_solver	common/common_inicmt.f90	/^		character(99) :: rp_solver$/;"	k	type:inicmt
+scheme_type	common/common_inicmt.f90	/^		character(99) :: scheme_type$/;"	k	type:inicmt
+slope_1D_cell_centered	solver/highorder/highorder.f90	/^subroutine slope_1D_cell_centered(/;"	s
+solver_staggered_MJSLS	solver/staggered/mdu_fluid_euler_eqn_solver_staggered.f90	/^Subroutine solver_staggered_MJSLS(/;"	s	module:mdu_fluid_euler_eqn_solver_staggered
+solver_staggered_MJSLS_details	solver/staggered/mdu_fluid_euler_eqn_solver_staggered.f90	/^Subroutine solver_staggered_MJSLS_details(/;"	s	module:mdu_fluid_euler_eqn_solver_staggered
+solver_staggered_VonN	solver/staggered/mdu_fluid_euler_eqn_solver_staggered.f90	/^Subroutine solver_staggered_VonN(/;"	s	module:mdu_fluid_euler_eqn_solver_staggered
+solver_staggered_VonN_details	solver/staggered/mdu_fluid_euler_eqn_solver_staggered.f90	/^Subroutine solver_staggered_VonN_details(/;"	s	module:mdu_fluid_euler_eqn_solver_staggered
+sos	common/common_meshphys.f90	/^		real*8,allocatable  :: sos(/;"	k	type:meshphys
+tau	common/common_meshphys.f90	/^		real*8,allocatable  :: tau(/;"	k	type:meshphys
+tau_old	common/common_meshphys.f90	/^		real*8,allocatable  :: tau_old(/;"	k	type:meshphys
+time_stop	common/common_inicmt.f90	/^		real*8  :: time_stop$/;"	k	type:inicmt
+u	solver/MDU_exact_riemann_slover.f90	/^	real*8,private  :: d,e,p,u,/;"	v	module:MDU_exact_riemann_slover
+update_phys	solver/centered/mdu_fluid_euler_eqn_solver_centered_update.f90	/^	Subroutine update_phys(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_update
+update_phys_Xihua_dudedE	solver/centered/mdu_fluid_euler_eqn_solver_centered_update.f90	/^	Subroutine update_phys_Xihua_dudedE(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_update
+update_phys_bkp	solver/centered/mdu_fluid_euler_eqn_solver_centered_update.f90	/^	Subroutine update_phys_bkp(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_update
+update_phys_details	solver/centered/mdu_fluid_euler_eqn_solver_centered_update.f90	/^	Subroutine update_phys_details(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_update
+update_vertex	solver/centered/mdu_fluid_euler_eqn_solver_centered_update.f90	/^	Subroutine update_vertex(/;"	s	module:mdu_fluid_euler_eqn_solver_centered_update
+v	solver/MDU_exact_riemann_slover.f90	/^	real*8,priva/;"	v	module:MDU_exact_riemann_slover
+vel_p	common/common_meshphys.f90	/^		real*8,allocatable  :: vel_p(/;"	k	type:meshphys
+vertex	common/common_meshphys.f90	/^		real*8,allocatable  :: vertex(/;"	k	type:meshphys
+vol	common/common_meshphys.f90	/^		real*8,allocatable  :: vol(/;"	k	type:meshphys
+vol0	common/common_meshphys.f90	/^		real*8,allocatable  :: vol0(/;"	k	type:meshphys
+vol_size_new	common/common_meshphys.f90	/^		real*8,allocatable  :: vol_size_new(/;"	k	type:meshphys
+vol_size_old	common/common_meshphys.f90	/^		real*8,allocatable  :: vol_size_old(/;"	k	type:meshphys
+vol_size_t0	common/common_meshphys.f90	/^		real*8,allocatable  :: vol_size_t0(/;"	k	type:meshphys
+voln_ratio	common/common_meshphys.f90	/^		real*8,allocatable  :: voln_ratio(/;"	k	type:meshphys
+volnmin1	common/common_meshphys.f90	/^		real*8,allocatable  :: volnmin1(/;"	k	type:meshphys
+w	solver/MDU_exact_riemann_slover.f90	/^	real*8,private  :: d,e,p,u,c,h,e1,v,w,/;"	v	module:MDU_exact_riemann_slover

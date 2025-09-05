@@ -1,0 +1,69 @@
+!> Last Modified : Sat Feb 25 22:33:31 2023
+
+Module MDU_Initial_TNT
+	use common_inicmt
+	use common_meshphys
+	use fluid_euler_eqn_basic
+Contains
+
+
+Subroutine Initial_Mesh_Phys_TNT_water(ini_cmt,mesh_phys)
+	implicit none
+
+	type(inicmt)   :: ini_cmt 
+	type(meshphys) :: mesh_phys
+
+	integer :: ix
+	real*8  :: dx,pvar(3),cvar(3),sos,ein,xmid,gamma3(3),gamma6(6)
+
+	ini_cmt%time_stop = 0.00025d0
+	dx = 1.5d0 / (ini_cmt%nx + 0.d0)
+
+	do ix = 1 , ini_cmt%nx + 1
+		mesh_phys%vertex(ix) = (ix - 1) * dx
+	enddo
+	mesh_phys%vel_p = 0.d0
+	mesh_phys%pstar = 0.d0
+
+	do ix = 1 , ini_cmt%nx
+		xmid = (mesh_phys%vertex(ix) + mesh_phys%vertex(ix+1)) / 2.d0
+	if(xmid < 0.16d0) then
+		PVar(1) = 1.63d-3      !> rho
+		PVar(2) = 0.d0      !> u
+		PVar(3) = 8.381d3      !> p
+		mesh_phys%eos(ix) = 3712
+
+		Call ieos_to_gamma_JWL(mesh_phys%eos(ix),gamma6)
+		Call PVarToCVar_JWL(3, PVar,CVar,mesh_phys%eos(ix))
+		Call PVarToOther_JWL(3, PVar,sos,ein,mesh_phys%eos(ix))
+		mesh_phys%con_phys(ix,1:3) = CVar
+		mesh_phys%pre(ix) = pvar(3)
+		mesh_phys%sos(ix) = sos
+		mesh_phys%ein(ix) = ein
+	else
+		PVar(1) = 1.025d-3   !> rho
+		PVar(2) = 0.d0      !> u
+		PVar(3) = 1d0     !> p
+		mesh_phys%eos(ix) = 7153309
+
+		Call ieos_to_gamma_stiff(mesh_phys%eos(ix),gamma3)
+		Call PVarToCVar_Stiff(3, PVar,CVar,mesh_phys%eos(ix))
+		Call PvarToOther_Stiff(3, PVar,sos,ein,mesh_phys%eos(ix))
+		mesh_phys%con_phys(ix,1:3) = CVar
+		mesh_phys%pre(ix) = pvar(3)
+		mesh_phys%sos(ix) = sos
+		mesh_phys%ein(ix) = ein
+	endif     
+
+
+	enddo
+
+	!> 0:Wall, -1:Given Velocity, -5:Given Pressure, -2:InFlow OutFlow
+	mesh_phys%bnd_con(1) = 0
+	mesh_phys%bnd_con(2) = 0
+	mesh_phys%bnd_vel_pre = 0.d0 
+
+End Subroutine Initial_Mesh_Phys_TNT_water
+
+
+End Module MDU_Initial_TNT
